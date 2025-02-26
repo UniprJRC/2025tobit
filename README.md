@@ -1,2 +1,16 @@
 # 2025tobit
 Code to reproduce the figures of paper "Robust Tobit Regression for Censored Observations Using Extended Box-Cox Transformations"
+
+
+**Abstract**
+
+Truncated regression data often occur in measuring consumer behaviour involving infrequent purchases. We consider  data  with truncation of the upper and lower tails of the response distribution at arbitrary values. If, in addition,  the distribution of responses is also skewed, we use robust transformations of the response with the parametric Yeo-Johnson transformation to provide approximate normality for both positive and negative responses. Tests for the value of the transformation parameter use the signed square root of the loglikelihood ratio test. To achieve robustness  we use the Forward Search which fits the model to data subsets of increasing size and so orders the observations by closeness to the fitted model.  Monitoring the  statistic for  transformation  during the Forward Search, indicates an appropriate transformation.  We initially exhibit the properties of our procedure  on simulated data. Our practical regression analysis is of 493 observations derived from loyalty card data. 100 of the responses are censored at zero and there are ten explanatory variables.
+
+
+| FileName | View :eyes:| Run ▶️ |
+| -------- | ---- | --- |
+|`mainSimulatedData.mlx`: generate Figures 1-6  | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC&file=2025tobit/ainSimulatedData.mlx) | 
+| `mainEsselunga.mlx`: generate Figures 7-10 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) | N/A* | 
+| `mainSimulatedData_Interactive.m`: generate the interactive version of Figures 3, 4 and 6 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://viewer.mathworks.com/?viewer=live_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F6d2fb9fc-2974-4fac-9eb3-83340b9f5095%2Fae967b44-8a32-449b-ac35-7559e44fe5ba%2Ffiles%2FLearning%20materials%2FLecture%20Tutorials%2FTutorial%203%20-%20Preprocessing%2Ftutorial_3.mlx&embed=web) | N/A* | 
+| `mainEsselunga_Interactive.m`: generate the interactive version of Figures 9 and 10 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://viewer.mathworks.com/?viewer=live_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F6d2fb9fc-2974-4fac-9eb3-83340b9f5095%2Fae967b44-8a32-449b-ac35-7559e44fe5ba%2Ffiles%2FLearning%20materials%2FLecture%20Tutorials%2FTutorial%204%20-%20Cellfinding%2Ftutorial_4.mlx&embed=web) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=schnitzer-lab/EXTRACT-public&file=Learning-materials/Lecture-Tutorials/Tutorial-4-Cellfinding/tutorial_4.mlx)** |
+ |
