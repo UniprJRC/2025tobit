@@ -1,6 +1,8 @@
-# 2025tobit
+# Robust Tobit Regression for Censored Observations Using Extended Box-Cox Transformations
+
 Code to reproduce the figures of paper "Robust Tobit Regression for Censored Observations Using Extended Box-Cox Transformations"
 
+Note: in order to run the files below you need to have [FSDA toolbox](https://https://www.mathworks.com/matlabcentral/fileexchange/72999-fsda-flexible-statistics-data-analysis-toolbox) installed
 
 **Abstract**
 
@@ -11,5 +13,6 @@ Truncated regression data often occur in measuring consumer behaviour involving 
 | -------- | ---- | --- |
 |`mainSimulatedData.mlx`: generate Figures 1-6  | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) |  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainSimulatedData.mlx) | 
 | `mainEsselunga.mlx`: generate Figures 7-10 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) |  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainEsselunga.mlx) | 
-| `mainSimulatedData_Interactive.m`: generate the interactive version of Figures 3, 4 and 6 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://viewer.mathworks.com/?viewer=live_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F6d2fb9fc-2974-4fac-9eb3-83340b9f5095%2Fae967b44-8a32-449b-ac35-7559e44fe5ba%2Ffiles%2FLearning%20materials%2FLecture%20Tutorials%2FTutorial%203%20-%20Preprocessing%2Ftutorial_3.mlx&embed=web) |  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainSimulatedData_Interactive.m) | 
-| `mainEsselunga_Interactive.m`: generate the interactive version of Figures 9 and 10 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://viewer.mathworks.com/?viewer=live_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F6d2fb9fc-2974-4fac-9eb3-83340b9f5095%2Fae967b44-8a32-449b-ac35-7559e44fe5ba%2Ffiles%2FLearning%20materials%2FLecture%20Tutorials%2FTutorial%204%20-%20Cellfinding%2Ftutorial_4.mlx&embed=web) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainEsselunga_Interactive.m) | |
+| `mainSimulatedData_Interactive.m`: generate the interactive version of Figures 3, 4 and 6 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) |  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainSimulatedData_Interactive.m) | 
+| `mainEsselunga_Interactive.m`: generate the interactive version of Figures 9 and 10 | [![File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](TODO) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/2025tobit&file=mainEsselunga_Interactive.m) | 
+|
